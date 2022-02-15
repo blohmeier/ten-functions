@@ -20,3 +20,37 @@
  * and
  * concat
  */
+function isTrue(input){
+    if (input === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function addOne(input){
+    return parseFloat(input) + 1;
+}
+
+function isIdentical(input1,input2) {
+    if (input1 == input2) {
+        return true
+    } else {
+        return false;
+    }
+}
+
+function isEqual(input1,input2) {
+    if (input1 == input2) {
+        return true
+    } else {
+        return false;
+    }
+}
+function or(input1,input2) {
+    if (input1 === false && input2 === false) {
+        return false
+    } else {
+        return true;
+    }
+}
